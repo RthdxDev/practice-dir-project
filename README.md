@@ -8,7 +8,7 @@
 graph LR;
 git init             -- "initialization"               --> git add;
 git add              -- "the file has been prepared"   --> git commit -m message;
-git commit -m "text" -- "sending to github"            --> git push;
+git commit -m text -- "sending to github"            --> git push;
 ```
 
 
