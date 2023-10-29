@@ -6,7 +6,7 @@
 
 ```mermaid
 graph LR;
-  git init -- "иницализация" --> git add
+  git init -- "иницализация" --> git add;
   git add -- "файл подготовлен" --> git commit -m message;
   git commit -m "text" -- "отправка на github" --> git push;
 ```
