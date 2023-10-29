@@ -8,8 +8,9 @@
 
 ```mermaid
 graph LR;
-    git init -- "иницализация" --> git add -- "файл подготовлен" --> git commit -m "text"
-
+    git init -- "иницализация" --> git add
+    git add -- "файл подготовлен" --> git commit -m "text";
+    git commit -m "text" -- "отправка на github" --> git push;
 ```
 
 
